@@ -19,6 +19,17 @@ class App extends Component {
     let newPrice = currentPrice + 8;
     this.setState({price : newPrice})
   }
+  addJumboCocktail(){
+    let currentPrice = this.state.price;
+    let newPrice = currentPrice + 14;
+    this.setState({price : newPrice})
+  }
+  addShot(){
+    let currentPrice = this.state.price;
+    let newPrice = currentPrice + 4;
+    this.setState({price : newPrice})
+  }
+
   addTapas(){
     let currentPrice = this.state.price;
     let newPrice = currentPrice + 7.50;
@@ -44,6 +55,8 @@ class App extends Component {
         </p>
         <button onClick ={this.addBeer.bind(this)}>Beer</button>
         <br/><button onClick={this.addCocktail.bind(this)}>Cocktail</button>
+        <br/><button onClick={this.addJumboCocktail.bind(this)}>Jumbo Cocktail</button>
+        <br/><button onClick={this.addShot.bind(this)}>Shot</button>
         <br/><button onClick ={this.addTapas.bind(this)}>Tapas</button>
         <br/><button onClick ={this.addFood.bind(this)}>Food</button>
         <br/><button onClick ={this.reset.bind(this)}>Reset</button>
