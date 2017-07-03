@@ -42,6 +42,29 @@ const consos = {
       name : "Ti-punch",
       price : 8,
     },
+    {
+      name : "Desperitos",
+      price : 12,
+    },
+  ],
+
+  DoubleCocktails : [
+    {
+      name : "Tequila Sunrise",
+      price : 14,
+    },
+    {
+      name : "Sex on the Beach",
+      price : 14,
+    },
+    {
+      name : "Cosmopolitan",
+      price : 14,
+    },
+    {
+      name : "Mojito",
+      price : 16,
+    },
   ],
 
   Whiskies : [
@@ -67,6 +90,29 @@ const consos = {
     },
   ],
 
+  Alcool : [
+    {
+      name : "Alcool + soft",
+      price : 8,
+    },
+    {
+      name : "Martini",
+      price : 6,
+    },
+    {
+      name : "Gin, Rhum, Vodka",
+      price : 7,
+    },
+    {
+      name : "Calvados, Cognac, Armagnac",
+      price : 12,
+    },
+    {
+      name : "Champagne",
+      price : 9,
+    },
+  ],
+
   Shots : [
     {
       name : "Basique",
@@ -86,6 +132,24 @@ const consos = {
     },
   ],
 
+  Bottles : [
+    {
+      name : "Champagne",
+      price : 50,
+    },
+    {
+      name : "Jameson / Bushmills",
+      price : 80,
+    },
+    {
+      name : "Gin / Rhum / Vodka",
+      price : 80,
+    },
+    {
+      name : "V6",
+      price : 90,
+    },
+  ],
   Softs : [
     {
       name : "Basique",
