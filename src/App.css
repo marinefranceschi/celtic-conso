@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  background-image: url('./pintes.jpeg');
-  color: White;
 }
 
 .App-logo {
@@ -18,7 +16,6 @@
 
 .App-intro {
   font-size: large;
-  color: white;
 }
 
 @keyframes App-logo-spin {
