@@ -48,7 +48,7 @@ const consos = {
     },
   ],
 
-  DoubleCocktails : [
+  "Double Cocktails" : [
     {
       name : "Tequila Sunrise",
       price : 14,
@@ -168,36 +168,117 @@ const consos = {
       price : 7,
     },
     {
-      name : "Sticks",
+      name : "Chorizo",
+      price : 6,
+    },
+    {
+      name : "Totillas",
+      price : 5.50,
+    },
+    {
+      name : "Onion Rings",
+      price : 5.50,
+    },
+    {
+      name : "Potatoes",
+      price : 5.50,
+    },
+    {
+      name : "Chicken Wings",
       price : 6.50,
     },
     {
-      name : "Chips",
-      price : 1.50,
+      name : "Sticks Mozza / Chevre",
+      price : 6.50,
+    },
+    {
+      name : "Beignets Calamar",
+      price : 6.50,
+    },
+    {
+      name : "Mix Charcuterie et Fromage",
+      price : 14.50,
     },
     {
       name : "Big Tapas",
       price : 15,
     },
+    {
+      name : "Chips",
+      price : 1.50,
+    },
   ],
 
   Food : [
     {
-      name : "Burger",
-      price : 15,
+      name : "Celtic Burger",
+      price : 15.50,
     },
     {
-      name : "Salade",
-      price : 11,
+      name : "Comté Cheese Burger",
+      price : 14.50,
+    },
+    {
+      name : "BBQ Bacon Burger",
+      price : 14.50,
+    },
+    {
+      name : "Chorizo Burger",
+      price : 14.50,
+    },
+    {
+      name : "Double",
+      price : 6,
     },
     {
       name : "Hot Dog",
+      price : 5.50,
+    },
+    {
+      name : "Celtic Hot Dog",
+      price : 7,
+    },
+    {
+      name : "Pastrami Hot Dog",
       price : 8.50,
     },
     {
-      name : "Fish & Chips",
-      price : 12,
+      name : "Supp Potatoes",
+      price : 1.50,
     },
+    {
+      name : "Big Toast",
+      price : 9.50,
+    },
+    {
+      name : "Fish & Chips",
+      price : 12.50,
+    },
+    {
+      name : "Tartare",
+      price : 13.5,
+    },
+    {
+      name : "Carpaccio",
+      price : 14,
+    },
+    {
+      name : "Cheeze Salade",
+      price : 12.50,
+    },
+    {
+      name : "Chicken Salade",
+      price : 13,
+    },
+    {
+      name : "Butcher Salade",
+      price : 13.5,
+    },
+    {
+      name : "Corner Salade",
+      price : 14,
+    },
+
   ],
 };
 
