@@ -3,12 +3,17 @@ import logo from './beer.png';
 import './App.css';
 import consos from './consos.js';
 
+let savedPrice = parseFloat(window.localStorage.getItem("Price"));
+
+function savePrice(price) {
+  window.localStorage.setItem("Price", price);
+}
 
 class App extends Component {
   constructor(){
     super();
     this.state = {
-      price : 0,
+      price : savedPrice ? savedPrice : 0,
       isHappyHour : false,
       displayedList : null,
     };
@@ -26,14 +31,17 @@ class App extends Component {
       this.setState({displayedList : null});
     }
   }
+
   addConso (conso) {
     let currentPrice = this.state.price;
     let priceToAdd = this.state.isHappyHour && conso.happyHourPrice ? conso.happyHourPrice : conso.price;
     let newPrice = currentPrice + priceToAdd;
     this.setState({price : newPrice, displayedList: null});
+    savePrice(newPrice);
   }
   reset(){
     this.setState({price:0, displayedList: null});
+    savePrice(0);
   }
   render() {
     return (
