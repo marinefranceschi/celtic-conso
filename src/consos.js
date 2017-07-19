@@ -20,22 +20,77 @@ const consos = {
       price : 7.40,
     },
     {
-      name : "Bottles",
+      name : "Sol Bottle",
       price : 6.50,
+    },
+    {
+      name : "Budweiser Bottle",
+      price : 6,
+    },
+    {
+      name : "Ch'ti",
+      price : 5,
+    },
+    {
+      name : "Bombardier",
+      price : 7.50,
+    },
+    {
+      name : "Demi Pelforth",
+      price : 4.30,
+    },
+    {
+      name : "Autre Demi",
+      price : 4.50,
+    },
+  ],
+
+  "Mixed Beers" : [
+    {
+      name : "Black & Tan",
+      price : 7.40,
+    },
+    {
+      name : "Snake Bite",
+      price : 8.40,
+    },
+    {
+      name : "Picon Biere",
+      price : 10,
+    },
+    {
+      name : "Black Velvet",
+      price : 10,
+    },
+    {
+      name : "Desperitos",
+      price : 12,
+    },
+    {
+      name : "Embuscade",
+      price : 14,
     },
   ],
 
   Cocktails : [
     {
-      name : "Tequila Sunrise",
+      name : "Mojito Bull",
+      price : 11,
+    },
+    {
+      name : "Caïpi Bull",
+      price : 10,
+    },
+    {
+      name : "Long Island RedBull",
+      price : 14,
+    },
+    {
+      name : "Caïpirinha",
       price : 8,
     },
     {
-      name : "Sex on the Beach",
-      price : 8,
-    },
-    {
-      name : "Cosmopolitan",
+      name : "Caïpiroska",
       price : 8,
     },
     {
@@ -43,8 +98,40 @@ const consos = {
       price : 8,
     },
     {
-      name : "Desperitos",
-      price : 12,
+      name : "Cosmopolitan",
+      price : 8,
+    },
+    {
+      name : "Pina Colada",
+      price : 8,
+    },
+    {
+      name : "Planteur",
+      price : 8,
+    },
+    {
+      name : "Sex On The Beach",
+      price : 8,
+    },
+    {
+      name : "Tequila Sunrise",
+      price : 8,
+    },
+    {
+      name : "Mojito",
+      price : 9,
+    },
+    {
+      name : "Mojito First Class",
+      price : 10,
+    },
+    {
+      name : "Long Island",
+      price : 11,
+    },
+    {
+      name : "Manzanito",
+      price : 9,
     },
   ],
 
@@ -77,15 +164,51 @@ const consos = {
       price : 9,
     },
     {
+      name : "Jim Bean",
+      price : 9,
+    },
+    {
       name : "Jack Daniels",
       price : 10,
+    },
+    {
+      name : "Aberlour",
+      price : 12,
+    },
+    {
+      name : "Oban",
+      price : 12,
+    },
+    {
+      name : "Lagavulin",
+      price : 12,
+    },
+    {
+      name : "Talisker",
+      price : 12,
+    },
+    {
+      name : "Laphroaig",
+      price : 12,
     },
     {
       name : "Chivas",
       price : 12,
     },
     {
-      name : "Laphroaig",
+      name : "Cardhu",
+      price : 12,
+    },
+    {
+      name : "Bowmore",
+      price : 12,
+    },
+    {
+      name : "Marker's Mark",
+      price : 12,
+    },
+    {
+      name : "Singleton",
       price : 12,
     },
   ],
@@ -161,7 +284,24 @@ const consos = {
       price : 5,
     },
   ],
-
+  "Virgin Cocktails" : [
+    {
+      name : "Virgin Pina Colada",
+      price : 5.50,
+    },
+    {
+      name : "Virgin Sex on the Beach",
+      price : 5.50,
+    },
+    {
+      name : "Apple Mojito",
+      price : 5.50,
+    },
+    {
+      name : "Virgin Mojito",
+      price : 5.50,
+    },
+  ],
   Tapas : [
     {
       name : "Saucisson",
@@ -211,19 +351,47 @@ const consos = {
 
   Food : [
     {
-      name : "Celtic Burger",
-      price : 15.50,
+      name : "Fish Burger",
+      price : 13.50,
     },
     {
-      name : "Comté Cheese Burger",
+      name : "Cheeseburger",
+      price : 13.50,
+    },
+    {
+      name : "Chicken Burger",
+      price : 13.50,
+    },
+    {
+      name : "Frenchy Burger",
+      price : 14,
+    },
+    {
+      name : "Chorizo Burger",
       price : 14.50,
+    },
+    {
+      name : "Boursin Burger",
+      price : 14,
+    },
+    {
+      name : "Celtic Burger",
+      price : 15.50,
     },
     {
       name : "BBQ Bacon Burger",
       price : 14.50,
     },
     {
-      name : "Chorizo Burger",
+      name : "Comté Cheese Burger",
+      price : 14.50,
+    },
+    {
+      name : "New York Burger",
+      price : 15.50,
+    },
+    {
+      name : "Mexican Crispy Burger",
       price : 14.50,
     },
     {
