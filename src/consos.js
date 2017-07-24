@@ -20,7 +20,7 @@ const consos = {
       price : 7.40,
     },
     {
-      name : "Sol Bottle",
+      name : "Bottle",
       price : 6.50,
     },
     {
