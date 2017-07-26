@@ -1,13 +1,14 @@
-import React, { Component } from "react";
-import logo from "./beer.png";
-import "./App.css";
-import consos from "./consos";
-import ConsoButton from "./components/ConsoButton";
+import React, { Component } from 'react';
+import logo from './beer.png';
+import './App.css';
+import consos from './consos';
+import ConsoButton from './components/ConsoButton';
+import Switch from './components/Switch';
 
-let savedPrice = parseFloat(window.localStorage.getItem("Price"));
+let savedPrice = parseFloat(window.localStorage.getItem('Price'));
 
 function savePrice(price) {
-  window.localStorage.setItem("Price", price);
+  window.localStorage.setItem('Price', price);
 }
 
 class App extends Component {
@@ -56,12 +57,11 @@ class App extends Component {
         <p className="App-intro">
           You must currently pay {this.state.price.toFixed(2)} €
         </p>
-        <input
+        <Switch
           onClick={this.toggleHappyHour.bind(this)}
-          type="checkbox"
-          defaultChecked={this.state.isHappyHour}
-        />{" "}
-        Happy Hour
+          isChecked={this.state.isHappyHour}
+          label="Happy Hour"
+        />
         {Object.keys(consos).map(displayConsoList.bind(this))}
         <button className="type" onClick={this.reset.bind(this)}>
           Reset
